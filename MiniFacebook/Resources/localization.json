@@ -1,0 +1,61 @@
+﻿[
+  {
+    "Key": "PostDelete",
+    "LocalizedValue": {
+      "en": " your post has been deleted.",
+      "ar": "تم حذف منشورك"
+    }
+  },
+  {
+    "Key": "AreFriends",
+    "LocalizedValue": {
+      "en": "You can’t see the posts unless you add them as a friend.",
+      "ar": "لا يمكنك رؤية منشور اي مستخدم بدون قبول طلب الصداقه خاصتكم"
+    }
+  },
+  {
+    "Key": "PostAdd",
+    "LocalizedValue": {
+      "en": "your post has been added.",
+      "ar": "تم إضافه منشورك"
+    }
+  },
+  {
+    "Key": "FriendAdd",
+    "LocalizedValue": {
+      "en": "your friend has been added.",
+      "ar": "تم إضافه صديقك"
+    }
+  },
+  {
+    "Key": "VerifyAccount",
+    "LocalizedValue": {
+      "en": "Please Verify Your Account.",
+      "ar": "من فضلك قوم بتفعيل الحساب الخاص بكم"
+    }
+  },
+  {
+    "Key": "InvalidLogin",
+    "LocalizedValue": {
+      "en": "Invalid UserName or Password.",
+      "ar": "اسم مستخدم او كلمه مرور خطأ"
+    }
+  },
+  {
+    "Key": "UserCreated",
+    "LocalizedValue": {
+      "en": "User Created Please verify your account.",
+      "ar": "تم التسجيل بنجاح من فضلك فعل حسابك"
+    }
+  },
+  {
+    "Key": "Error",
+    "LocalizedValue": {
+      "en": "Error",
+      "ar": "Error"
+    }
+  }
+  
+  
+
+]

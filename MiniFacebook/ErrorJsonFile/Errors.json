@@ -1,0 +1,13 @@
+﻿[
+  {
+    "Message_ID": "ERR_Internal_01",
+    "Message_Description_EN": "Sorry, Unexpected System Error, Please try after sometime.",
+    "Message_Description_AR": "عفوا, خطأ غير متوقع في النظام، يرجى المحاولة مرة اخرى"
+  },
+  {
+    "Message_ID": "ERR_Internal_02",
+    "Message_Description_EN": "Unexpected Global Error!",
+    "Message_Description_AR": "!خطأ عام غير متوقع"
+
+  }
+]

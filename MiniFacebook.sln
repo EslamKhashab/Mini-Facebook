@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniFacebook.API", "MiniFacebook\MiniFacebook.API.csproj", "{AC62B44A-0FB6-4973-AE07-66F2ABF37644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniFacebook.DAL", "MiniFacebook.DAL\MiniFacebook.DAL.csproj", "{1B0E6D10-E843-415D-95F1-A6059EEBC091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniFacebook.Models", "MiniFacebook.Models\MiniFacebook.Models.csproj", "{D49C223F-4D50-4EAF-89EC-59B13692F47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniFacebook.Orchestrator", "MiniFacebook.Services\MiniFacebook.Orchestrator.csproj", "{996C1CA4-BBB6-469A-A30A-7BEEEA0BBAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniFacebook.Shared", "MiniFacebook.Shared\MiniFacebook.Shared.csproj", "{6A46FAA3-D3EB-48C0-8635-4F3871581CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniFacebook.ViewModel", "MiniFacebook.ViewModel\MiniFacebook.ViewModel.csproj", "{8A76F975-F000-41BA-8713-0913DAF53712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC62B44A-0FB6-4973-AE07-66F2ABF37644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC62B44A-0FB6-4973-AE07-66F2ABF37644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC62B44A-0FB6-4973-AE07-66F2ABF37644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC62B44A-0FB6-4973-AE07-66F2ABF37644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0E6D10-E843-415D-95F1-A6059EEBC091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0E6D10-E843-415D-95F1-A6059EEBC091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0E6D10-E843-415D-95F1-A6059EEBC091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0E6D10-E843-415D-95F1-A6059EEBC091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49C223F-4D50-4EAF-89EC-59B13692F47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49C223F-4D50-4EAF-89EC-59B13692F47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49C223F-4D50-4EAF-89EC-59B13692F47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49C223F-4D50-4EAF-89EC-59B13692F47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996C1CA4-BBB6-469A-A30A-7BEEEA0BBAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996C1CA4-BBB6-469A-A30A-7BEEEA0BBAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996C1CA4-BBB6-469A-A30A-7BEEEA0BBAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996C1CA4-BBB6-469A-A30A-7BEEEA0BBAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A46FAA3-D3EB-48C0-8635-4F3871581CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A46FAA3-D3EB-48C0-8635-4F3871581CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A46FAA3-D3EB-48C0-8635-4F3871581CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A46FAA3-D3EB-48C0-8635-4F3871581CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A76F975-F000-41BA-8713-0913DAF53712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A76F975-F000-41BA-8713-0913DAF53712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A76F975-F000-41BA-8713-0913DAF53712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A76F975-F000-41BA-8713-0913DAF53712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46E4A15C-EEB6-4AD3-91D9-41445C946FCB}
+	EndGlobalSection
+EndGlobal

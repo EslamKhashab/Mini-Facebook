@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiniFacebook.API</name>
+    </assembly>
+    <members>
+        <member name="T:MiniFacebook.API.Controllers.AuthenticateController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.AuthenticateController.#ctor(MiniFacebook.Orchestrator.Services.AuthenticateService.IAuthenticateService)">
+            <summary>  
+            </summary>  
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.AuthenticateController.Login(MiniFacebook.ViewModel.Auth.LoginDto)">
+            <summary>
+            Login
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.AuthenticateController.Register(MiniFacebook.ViewModel.Auth.RegisterDto)">
+            <summary>
+            Register A new user
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.AuthenticateController.ForgetPassword(MiniFacebook.ViewModel.Auth.ForgetPasswordDto)">
+            <summary>
+            Forget Password
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.AuthenticateController.ResetPassword(MiniFacebook.ViewModel.Auth.RestPasswordDto)">
+            <summary>
+            Reset Password
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.AuthenticateController.ConfirmPhone(System.String,System.String)">
+            <summary>
+            Confirm Phone
+            </summary>
+            <param name="UserId"></param>
+            <param name="Token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MiniFacebook.API.Controllers.FriendController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.FriendController.#ctor(MiniFacebook.Orchestrator.Services.FriendService.IFriendService)">
+            <summary>
+            
+            </summary>
+            <param name="friendService"></param>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.FriendController.SendFrinedRequset(System.Guid)">
+            <summary>
+            Send Friend Request
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>     
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.FriendController.AcceptFriendRequest(System.Guid)">
+            <summary>
+            Accept Friend Request
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>      
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.FriendController.RejectFriendRequest(System.Guid)">
+            <summary>
+            Reject Friend Request
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MiniFacebook.API.Controllers.PostController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.PostController.#ctor(MiniFacebook.Orchestrator.Services.PostService.IPostService)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.PostController.AddPost(MiniFacebook.ViewModel.AddPostDto)">
+            <summary>
+            Add Post
+            </summary>
+            <param name="Payload"></param>
+            <returns></returns>     
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.PostController.ListFriendPosts(System.Guid,MiniFacebook.Shared.Helper.PaginationObject)">
+            <summary>
+            List Posts
+            </summary>
+            <param name="UserId"></param>
+            <param name="paginationObject"></param>
+            <returns></returns>     
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.PostController.ListMyWall(MiniFacebook.Shared.Helper.PaginationObject)">
+            <summary>
+            List My Posts
+            </summary>
+            <param name="paginationObject"></param>
+            <returns></returns>     
+        </member>
+        <member name="M:MiniFacebook.API.Controllers.PostController.DeletePost(System.Guid)">
+            <summary>
+            Delete Post
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>     
+        </member>
+        <member name="T:MiniFacebook.API.Extensions.AppConfigureExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.AppConfigureExtension.ConfigureDatabaseIfNotExists(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.AppConfigureExtension.ConfigureSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:MiniFacebook.API.Extensions.ConfigureServicesExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ConfigureServicesExtension.RegisterAppServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ConfigureServicesExtension.AddVersioning(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ConfigureServicesExtension.AddSwaggerConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ConfigureServicesExtension.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ConfigureServicesExtension.RegisterRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ConfigureServicesExtension.DatabaseConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MiniFacebook.API.Extensions.ProgramConfigureExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ProgramConfigureExtension.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiniFacebook.API.Extensions.ProgramConfigureExtension.GetSqlColumnOptions">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DQ.API.Controllers.FileMangerController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DQ.API.Controllers.FileMangerController.#ctor(MiniFacebook.Shared.Helper.IUploadClass)">
+            <summary>
+            
+            </summary>
+            <param name="uploadClass"></param>
+        </member>
+        <member name="M:DQ.API.Controllers.FileMangerController.UploadFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Upload One File
+            </summary>
+            <param name="File"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DQ.API.Controllers.FileMangerController.UploadMultipleFiles(Microsoft.AspNetCore.Http.IFormFileCollection)">
+            <summary>
+            Upload Multiple File
+            </summary>
+            <param name="Files"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DQ.API.Helpers.RequiredHeaderParameter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DQ.API.Helpers.RequiredHeaderParameter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+    </members>
+</doc>
