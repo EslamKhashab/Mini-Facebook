@@ -62,30 +62,6 @@ namespace MiniFacebook.API.Controllers
         }
 
         /// <summary>
-        /// Forget Password
-        /// </summary>
-        /// <param name="data"></param>
-        /// <returns></returns>
-        [AllowAnonymous]
-        [HttpPost("ForgetPassword")]
-        public async Task<IActionResult> ForgetPassword([FromBody] ForgetPasswordDto data)
-        {
-            return Success(await _authenticateService.ForgetPassword(data));
-        }
-
-        /// <summary>
-        /// Reset Password
-        /// </summary>
-        /// <param name="data"></param>
-        /// <returns></returns>
-        [AllowAnonymous]
-        [HttpPost("ResetPassword")]
-        public async Task<IActionResult> ResetPassword([FromBody] RestPasswordDto data)
-        {
-            return Success(await _authenticateService.RestPassword(data));
-        }
-
-        /// <summary>
         /// Confirm Phone
         /// </summary>
         /// <param name="UserId"></param>
